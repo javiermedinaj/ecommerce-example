@@ -1,0 +1,107 @@
+import Layout from "./components/Layout";
+import Hero from "./components/Hero";
+import ProductFeed from "./components/ProductFeed";
+import {Routes, Route} from "react-router-dom";
+import ComoComprar from "./components/ComoComprar";
+import Login from "./components/pages/Login";
+
+const mockProducts = [
+	{
+		id: 1,
+		name: "Campera [ Site ] Negro",
+		price: 190000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
+	},
+	{
+		id: 2,
+		name: "Buzo [ Nagano ] Negro",
+		price: 130000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/remera-nagano-negro_01-297067808f7272f2ae17539189451900-1024-1024.webp",
+	},
+	{
+		id: 3,
+		name: "Remera [ Log In ] Negro",
+		price: 58000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/remera-log-in-negro_01-73c82ea369918fecee17539197810355-1024-1024.webp",
+	},
+	{
+		id: 4,
+		name: "Remera [ Sailing ] Marrón",
+		price: 64000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/remera-sailing-marron_01-cc6e4576ed584973e217539210556607-1024-1024.webp",
+	},
+	{
+		id: 5,
+		name: "Remera [ Desert ] Marrón",
+		price: 60000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
+	},
+	{
+		id: 6,
+		name: "Gorra [ WWW ] Acid",
+		price: 58000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
+	},
+	{
+		id: 7,
+		name: "Buzo [ .ZIP V2 ] Gris",
+		price: 115000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
+	},
+	{
+		id: 8,
+		name: "Remera anatómica [ Distrito ] Blanco",
+		price: 60000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
+	},
+	{
+		id: 9,
+		name: "Top [ Mini Sailing ] Oxido",
+		price: 58000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/remera-log-in-negro_01-73c82ea369918fecee17539197810355-1024-1024.webp",
+	},
+	{
+		id: 10,
+		name: "Remera [ Vertebral ] Negro",
+		price: 64000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/remera-sailing-marron_01-cc6e4576ed584973e217539210556607-1024-1024.webp",
+	},
+	{
+		id: 11,
+		name: "Top [ Suzumaki ] Aero",
+		price: 88000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/remera-nagano-negro_01-297067808f7272f2ae17539189451900-1024-1024.webp",
+	},
+	{
+		id: 12,
+		name: "Remera [ Heavy Weight ] Negro",
+		price: 62000,
+		image_url:
+			"https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
+	},
+];
+
+function App() {
+	return (
+		<Layout>
+		<Routes>
+        <Route path ="/" element={<ProductFeed products={mockProducts} />} />
+        <Route path = "/login" element={<Login />} />
+		<Route path = "/como-comprar" element={<ComoComprar />} />
+      </Routes>
+		</Layout>
+	);
+}
+
+export default App;
