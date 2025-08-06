@@ -51,9 +51,9 @@ const Footer = () => (
         <div>
           <ul className="space-y-2 text-sm">
             <li><Link to="/como-comprar" className="text-black hover:text-gray-600 transition-colors">Cómo comprar</Link></li>
-            <li><Link to="#" className="text-black hover:text-gray-600 transition-colors">Política de Envíos</Link></li>
-            <li><Link to="#" className="text-black hover:text-gray-600 transition-colors">Cambios y Devoluciones</Link></li>
-            <li><Link to="#" className="text-black hover:text-gray-600 transition-colors">Separar y Reciclar</Link></li>
+            <li><Link to="/envios" className="text-black hover:text-gray-600 transition-colors">Política de Envíos</Link></li>
+            <li><Link to="/cambios" className="text-black hover:text-gray-600 transition-colors">Cambios y Devoluciones</Link></li>
+            <li><Link to="/reciclar" className="text-black hover:text-gray-600 transition-colors">Separar y Reciclar</Link></li>
           </ul>
         </div>
         

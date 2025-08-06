@@ -4,7 +4,7 @@ const ComoComprar = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        {/* Header */}
+      
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-black uppercase tracking-tight text-gray-900 mb-4">
             Cómo comprar
@@ -14,7 +14,7 @@ const ComoComprar = () => {
           </p>
         </div>
 
-        {/* Steps */}
+    
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Por ejemplo:</h2>
           
@@ -58,9 +58,7 @@ const ComoComprar = () => {
               </div>
               <div>
                 <p className="text-gray-900">
-                  <strong>Completá tus datos de contacto</strong> y hacé click en "Continuar".
-                </p>
-              </div>
+                  <strong>Completá tus datos de contacto</strong> y hacé click en "Continuar". </p> </div>
             </div>
 
             <div className="flex items-start space-x-4">

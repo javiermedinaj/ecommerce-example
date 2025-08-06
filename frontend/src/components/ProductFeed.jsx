@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import HeaderCategories from "./HeaderCategories";
+import Cuotas from "./Cuotas-sin-interes";
+import { Link } from "react-router-dom";
 
 const ProductFeed = ({ products = [] }) => {
   const [visibleProducts, setVisibleProducts] = useState(4);
@@ -16,22 +19,26 @@ const ProductFeed = ({ products = [] }) => {
   const hasMore = visibleProducts < products.length;
 
   return (
+    <>
+      <Cuotas />
     <section className="py-8 px-4 sm:py-12 sm:px-6">
+      
       <div className="container mx-auto max-w-7xl">
-        {/*una columna en mobile */}
+        
+        <HeaderCategories/>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
           {displayedProducts.map((product) => (
             <div key={product.id} className="group cursor-pointer">
               {/* Imagen un poco mas responsive */}
               <div className="aspect-square bg-gray-50 mb-2 sm:mb-4 overflow-hidden rounded-sm max-w-sm mx-auto">
-                <a href="/" className="block w-full h-full">
+                <Link to={`/products/${product.id}`} className="block w-full h-full">
                   <img
                     src={product.image_url}
                     alt={`${product.name} - comprar online`}
                     className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />
-                </a>
+                </Link>
               </div>
               
               {/* Info del producto - responsive */}
@@ -64,6 +71,7 @@ const ProductFeed = ({ products = [] }) => {
         )}
       </div>
     </section>
+    </>
   );
 };
 

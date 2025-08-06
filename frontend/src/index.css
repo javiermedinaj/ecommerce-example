@@ -15,10 +15,10 @@
   }
 }
 
-/* Animación marquee para el banner superior */
+/* Animación marquee para el banner superior de aca tambien marco la velocidad que va el texto */
 @layer utilities {
   .animate-marquee {
-    animation: marquee 20s linear infinite;
+    animation: marquee 18s linear infinite;
   }
   
   @keyframes marquee {
@@ -46,7 +46,7 @@
   }
 }
 
-/* Estilos personalizados para el diseño Bull Benny */
+/* Estilos personalizados para el diseño de la carta */
 @layer components {
   .product-card {
     @apply transition-all duration-200;
