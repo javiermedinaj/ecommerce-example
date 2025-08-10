@@ -33,7 +33,7 @@ const ProductFeed = ({ products = [] }) => {
               <div className="aspect-square bg-gray-50 mb-2 sm:mb-4 overflow-hidden rounded-sm max-w-sm mx-auto">
                 <Link to={`/products/${product.id}`} className="block w-full h-full">
                   <img
-                    src={product.image_url}
+                    src={product.media?.[0]?.url || product.images?.[0] || 'https://via.placeholder.com/400?text=No+Image'}
                     alt={`${product.name} - comprar online`}
                     className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
@@ -49,7 +49,7 @@ const ProductFeed = ({ products = [] }) => {
                     {product.name}
                   </h3>
                   <p className="text-sm sm:text-sm font-medium text-black mt-1">
-                    ${product.price.toLocaleString()}
+                    ${product.base_price?.toLocaleString() || '0'}
                   </p>
                 </a>
               </div>

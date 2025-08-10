@@ -1,86 +1,344 @@
 [
-    {
-        "id": 1,
-        "name": "Campera [ Site ] Negro",
+  {
+    "id": 1,
+    "name": "Campera [ Site ] Negro",
+    "description": "Campera deportiva negra con diseño moderno y funcional",
+    "brand": "Site",
+    "category": "campera",
+    "base_price": 190000,
+    "media": [
+      {
+        "type": "image",
+        "url": "https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp"
+      }
+    ],
+    "variants": [
+      {
+        "id": "1-S",
+        "product_id": 1,
+        "size": "S",
+        "color": "Negro",
+        "stock": 3,
         "price": 190000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
-        "category": "campera"
-    },
-    {
-        "id": 2,
-        "name": "Buzo [ Nagano ] Negro",
+        "sku": "SIT-CAM-NEG-S-0001"
+      },
+      {
+        "id": "1-M",
+        "product_id": 1,
+        "size": "M",
+        "color": "Negro",
+        "stock": 8,
+        "price": 190000,
+        "sku": "SIT-CAM-NEG-M-0001"
+      },
+      {
+        "id": "1-L",
+        "product_id": 1,
+        "size": "L",
+        "color": "Negro",
+        "stock": 0,
+        "price": 190000,
+        "sku": "SIT-CAM-NEG-L-0001"
+      },
+      {
+        "id": "1-XL",
+        "product_id": 1,
+        "size": "XL",
+        "color": "Negro",
+        "stock": 3,
+        "price": 190000,
+        "sku": "SIT-CAM-NEG-XL-0001"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Buzo [ Nagano ] Negro",
+    "description": "Buzo cómodo y elegante en color negro",
+    "brand": "Nagano",
+    "category": "buzo",
+    "base_price": 130000,
+    "media": [
+      {
+        "type": "image",
+        "url": "https://acdn-us.mitiendanube.com/stores/008/089/products/remera-nagano-negro_01-297067808f7272f2ae17539189451900-1024-1024.webp"
+      }
+    ],
+    "variants": [
+      {
+        "id": "2-S",
+        "product_id": 2,
+        "size": "S",
+        "color": "Negro",
+        "stock": 12,
         "price": 130000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/remera-nagano-negro_01-297067808f7272f2ae17539189451900-1024-1024.webp",
-        "category": "buzo"
-    },
-    {
-        "id": 3,
-        "name": "Remera [ Log In ] Negro",
+        "sku": "NAG-BUZ-NEG-S-0002"
+      },
+      {
+        "id": "2-M",
+        "product_id": 2,
+        "size": "M",
+        "color": "Negro",
+        "stock": 20,
+        "price": 130000,
+        "sku": "NAG-BUZ-NEG-M-0002"
+      },
+      {
+        "id": "2-L",
+        "product_id": 2,
+        "size": "L",
+        "color": "Negro",
+        "stock": 7,
+        "price": 130000,
+        "sku": "NAG-BUZ-NEG-L-0002"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Remera [ Log In ] Negro",
+    "description": "Remera básica con diseño minimalista",
+    "brand": "Log In",
+    "category": "remera",
+    "base_price": 58000,
+    "media": [
+      {
+        "type": "image",
+        "url": "/remera1.webp"
+      }
+    ],
+    "variants": [
+      {
+        "id": "3-S",
+        "product_id": 3,
+        "size": "S",
+        "color": "Negro",
+        "stock": 25,
         "price": 58000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/remera-log-in-negro_01-73c82ea369918fecee17539197810355-1024-1024.webp",
-        "category": "remera"
-    },
-    {
-        "id": 4,
-        "name": "Remera [ Sailing ] Marrón",
+        "sku": "LOG-REM-NEG-S-0003"
+      },
+      {
+        "id": "3-M",
+        "product_id": 3,
+        "size": "M",
+        "color": "Negro",
+        "stock": 30,
+        "price": 58000,
+        "sku": "LOG-REM-NEG-M-0003"
+      },
+      {
+        "id": "3-L",
+        "product_id": 3,
+        "size": "L",
+        "color": "Negro",
+        "stock": 18,
+        "price": 58000,
+        "sku": "LOG-REM-NEG-L-0003"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Remera [ Sailing ] Marrón",
+    "description": "Remera con diseño náutico en color marrón",
+    "brand": "Sailing",
+    "category": "remera",
+    "base_price": 64000,
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/008/089/products/remera-sailing-marron_01-cc6e4576ed584973e217539210556607-1024-1024.webp"
+    ],
+    "variants": [
+      {
+        "id": "4-S",
+        "product_id": 4,
+        "size": "S",
+        "color": "Marrón",
+        "stock": 10,
         "price": 64000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/remera-sailing-marron_01-cc6e4576ed584973e217539210556607-1024-1024.webp",
-        "category": "remera"
-    },
-    {
-        "id": 5,
-        "name": "Remera [ Desert ] Marrón",
+        "sku": "SAI-REM-MAR-S-0004"
+      },
+      {
+        "id": "4-M",
+        "product_id": 4,
+        "size": "M",
+        "color": "Marrón",
+        "stock": 15,
+        "price": 64000,
+        "sku": "SAI-REM-MAR-M-0004"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Buzo 3 ",
+    "description": "Buzo con tematica adidas",
+    "brand": "Desert",
+    "category": "buzos",
+    "base_price": 60000,
+    "images": [
+      "buzo3.webp"
+    ],
+    "variants": [
+      {
+        "id": "5-UNI",
+        "product_id": 5,
+        "size": "Único",
+        "color": "Marrón",
+        "stock": 5,
         "price": 60000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
-        "category": "remera"
-    },
-    {
-        "id": 6,
-        "name": "Gorra [ WWW ] Acid",
+        "sku": "DES-REM-MAR-UNI-0005"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Buzo Hardcore User",
+    "description": "Buzzo con letras",
+    "brand": "WWW",
+    "category": "buzo",
+    "base_price": 58000,
+    "images": [
+      "buzonegro2.webp"
+    ],
+    "variants": [
+      {
+        "id": "6-1",
+        "product_id": 6,
+        "size": "1",
+        "color": "Acid",
+        "stock": 8,
         "price": 58000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
-        "category": "gorra"
-    },
-    {
-        "id": 7,
-        "name": "Buzo [ .ZIP V2 ] Gris",
+        "sku": "WWW-GOR-ACI-1-0006"
+      },
+      {
+        "id": "6-2",
+        "product_id": 6,
+        "size": "2",
+        "color": "Acid",
+        "stock": 12,
+        "price": 58000,
+        "sku": "WWW-GOR-ACI-2-0006"
+      },
+      {
+        "id": "6-3",
+        "product_id": 6,
+        "size": "3",
+        "color": "Acid",
+        "stock": 6,
+        "price": 58000,
+        "sku": "WWW-GOR-ACI-3-0006"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Campera oriental",
+    "description": "Campera oriental",
+    "brand": ".ZIP V2",
+    "category": "camperas",
+    "base_price": 115000,
+    "images": [
+      "camperachina.webp"
+    ],
+    "variants": [
+      {
+        "id": "7-S",
+        "product_id": 7,
+        "size": "S",
+        "color": "Gris",
+        "stock": 9,
         "price": 115000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
-        "category": "buzo"
-    },
-    {
-        "id": 8,
-        "name": "Remera anatómica [ Distrito ] Blanco",
+        "sku": "ZIP-BUZ-GRI-S-0007"
+      },
+      {
+        "id": "7-M",
+        "product_id": 7,
+        "size": "M",
+        "color": "Gris",
+        "stock": 14,
+        "price": 115000,
+        "sku": "ZIP-BUZ-GRI-M-0007"
+      },
+      {
+        "id": "7-L",
+        "product_id": 7,
+        "size": "L",
+        "color": "Gris",
+        "stock": 0,
+        "price": 115000,
+        "sku": "ZIP-BUZ-GRI-L-0007"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "campera  gris",
+    "description": "Campera griso",
+    "brand": "Distrito",
+    "category": "campera",
+    "base_price": 60000,
+    "images": [
+      "camperagris.webp"
+    ],
+    "variants": [
+      {
+        "id": "8-S",
+        "product_id": 8,
+        "size": "S",
+        "color": "Blanco",
+        "stock": 22,
         "price": 60000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
-        "category": "remera"
-    },
-    {
-        "id": 9,
-        "name": "Top [ Mini Sailing ] Oxido",
+        "sku": "DIS-REM-BLA-S-0008"
+      },
+      {
+        "id": "8-M",
+        "product_id": 8,
+        "size": "M",
+        "color": "Blanco",
+        "stock": 28,
+        "price": 60000,
+        "sku": "DIS-REM-BLA-M-0008"
+      },
+      {
+        "id": "8-L",
+        "product_id": 8,
+        "size": "L",
+        "color": "Blanco",
+        "stock": 16,
+        "price": 60000,
+        "sku": "DIS-REM-BLA-L-0008"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pantalon chill",
+    "description": "Pantalon",
+    "brand": "Mini Sailing",
+    "category": "pantalon",
+    "base_price": 58000,
+    "images": [
+      "pantalon.webp"
+    ],
+    "variants": [
+      {
+        "id": "9-S",
+        "product_id": 9,
+        "size": "S",
+        "color": "Óxido",
+        "stock": 11,
         "price": 58000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/remera-log-in-negro_01-73c82ea369918fecee17539197810355-1024-1024.webp",
-        "category": "top"
-    },
-    {
-        "id": 10,
-        "name": "Remera [ Vertebral ] Negro",
-        "price": 64000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/remera-sailing-marron_01-cc6e4576ed584973e217539210556607-1024-1024.webp",
-        "category": "remera"
-    },
-    {
-        "id": 11,
-        "name": "Top [ Suzumaki ] Aero",
-        "price": 88000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/remera-nagano-negro_01-297067808f7272f2ae17539189451900-1024-1024.webp",
-        "category": "top"
-    },
-    {
-        "id": 12,
-        "name": "Remera [ Heavy Weight ] Negro",
-        "price": 62000,
-        "image_url": "https://acdn-us.mitiendanube.com/stores/008/089/products/campera-site-negro_01-c20193658e64609e3f17539157308482-1024-1024.webp",
-        "category": "remera"
-    }
+        "sku": "MIN-TOP-OXI-S-0009"
+      },
+      {
+        "id": "9-M",
+        "product_id": 9,
+        "size": "M",
+        "color": "Óxido",
+        "stock": 13,
+        "price": 58000,
+        "sku": "MIN-TOP-OXI-M-0009"
+      }
+    ]
+  }
 ]
